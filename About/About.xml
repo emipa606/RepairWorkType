@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <ModMetaData>
   <name>Repair Work Type (Continued)</name>
   <packageId>Mlie.RepairWorkType</packageId>
@@ -18,7 +18,7 @@
 Update of Lytalms mod
 https://steamcommunity.com/sharedfiles/filedetails/?id=1361691344
 
-- Added a check for Fluffys mod as to not cause issues when its not used
+- Added a check for [url=https://steamcommunity.com/workshop/filedetails/?id=726244033]Fluffys Breakdowns[/url] mod as to not cause issues when its not used
 
 [img]https://i.imgur.com/pufA0kM.png[/img]
 
@@ -55,4 +55,3 @@ Special thanks to kaptain_kavern for his mod "Corrected WorkGivers" which I took
 [/list]
 </description>
 </ModMetaData>
-

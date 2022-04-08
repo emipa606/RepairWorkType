@@ -5,7 +5,7 @@
 Update of Lytalms mod
 https://steamcommunity.com/sharedfiles/filedetails/?id=1361691344
 
-- Added a check for Fluffys mod as to not cause issues when its not used
+- Added a check for https://steamcommunity.com/workshop/filedetails/?id=726244033]Fluffys Breakdowns mod as to not cause issues when its not used
 
 ![Image](https://i.imgur.com/pufA0kM.png)
 
