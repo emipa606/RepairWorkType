@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+  <!-- Changes for the Repair work type -->
+  <!-- FixBrokenDownBuilding is now tied to Repair -->
+  <Operation Class="PatchOperationReplace">
+    <xpath>/Defs/WorkGiverDef[defName = "FixBrokenDownBuilding"]/workType</xpath>
+    <value>
+      <workType>Repair</workType>
+    </value>
+  </Operation>
+  <!-- Repair is now tied to Repair -->
+  <Operation Class="PatchOperationReplace">
+    <xpath>/Defs/WorkGiverDef[defName = "Repair"]/workType</xpath>
+    <value>
+      <workType>Repair</workType>
+    </value>
+  </Operation>
+  <!-- Updating Construction description field to remove repairing mention -->
+  <Operation Class="PatchOperationReplace">
+    <xpath>/Defs/WorkTypeDef[defName = "Construction"]/description</xpath>
+    <value>
+      <description>Build things that you've designated.</description>
+    </value>
+  </Operation>
+  <!-- Maintenance is now tied to Repair -->
+  <Operation Class="PatchOperationConditional">
+    <xpath>/Defs/WorkGiverDef[defName = "FluffyBreakdowns_Maintenance"]</xpath>
+    <success>Always</success>
+    <match Class="PatchOperationReplace">
+      <xpath>/Defs/WorkGiverDef[defName = "FluffyBreakdowns_Maintenance"]/workType</xpath>
+      <value>
+        <workType>Repair</workType>
+      </value>
+    </match>
+  </Operation>
+  <!-- Mechanoid repairing -->
+  <Operation Class="PatchOperationConditional">
+    <xpath>/Defs/ThingDef/race/mechEnabledWorkTypes</xpath>
+    <success>Always</success>
+    <match Class="PatchOperationInsert">
+      <xpath>/Defs/ThingDef/race/mechEnabledWorkTypes/li[text()="Construction"]</xpath>
+      <value>
+        <li>Repair</li>
+      </value>
+    </match>
+  </Operation>
+</Patch>
