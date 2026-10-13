@@ -1,15 +1,15 @@
 # [Repair Work Type (Continued)](https://steamcommunity.com/sharedfiles/filedetails/?id=2590677308)
 
-![Image](https://i.imgur.com/buuPQel.png)
+![Image](https://img.litet.net/logos/Info.png)
 
 Update of Lytalms mod
 https://steamcommunity.com/sharedfiles/filedetails/?id=1361691344
 
 - Added a check for [Fluffys Breakdowns](https://steamcommunity.com/workshop/filedetails/?id=726244033) mod as to not cause issues when its not used
 
-![Image](https://i.imgur.com/pufA0kM.png)
+![Image](https://img.litet.net/logos/Notice.png)
 	
-![Image](https://i.imgur.com/Z4GOv8H.png)
+![Image](https://img.litet.net/logos/OriginalDescription.png)
 
 Adds the Repair work type in the Work tab.
 
@@ -25,13 +25,13 @@ Note 2 : You don't need Fluffy Breakdowns mod to use this mod ; it will only sho
 
 Special thanks to kaptain_kavern for his mod "Corrected WorkGivers" which I took the orginal code from and modified it to my taste.
 
-![Image](https://i.imgur.com/PwoNOj4.png)
+![Image](https://img.litet.net/logos/ReportingIssues.png)
 
 
 
 -  See if the the error persists if you just have this mod and its requirements active.
 -  If not, try adding your other mods until it happens again.
--  Post your error-log using [HugsLib](https://steamcommunity.com/workshop/filedetails/?id=818773962) or the standalone [Uploader](https://steamcommunity.com/sharedfiles/filedetails/?id=2873415404) and command Ctrl+F12
+-  Always post your log using the [Log Uploader](https://steamcommunity.com/sharedfiles/filedetails/?id=2873415404)
 -  For best support, please use the Discord-channel for error-reporting.
 -  Do not report errors by making a discussion-thread, I get no notification of that.
 -  If you have the solution for a problem, please post it to the GitHub repository.
@@ -39,4 +39,4 @@ Special thanks to kaptain_kavern for his mod "Corrected WorkGivers" which I took
 
  
 
-[![Image](https://img.shields.io/github/v/release/emipa606/RepairWorkType?label=latest%20version&style=plastic&color=9f1111&labelColor=black)](https://steamcommunity.com/sharedfiles/filedetails/changelog/2590677308) | tags:  maintenance
+[![Image](https://img.shields.io/github/v/release/emipa606/RepairWorkType?label=latest%20version&style=plastic&color=9f1111&labelColor=black)](https://steamcommunity.com/sharedfiles/filedetails/changelog/2590677308) | maintenance
